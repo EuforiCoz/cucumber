@@ -75,6 +75,7 @@ pero así tambien estaría bien
     /// Función para testear accesibilidad
     testAccesibilityInScreen () {
       cy.injectAxe();
+      //aaa
       cy.checkA11y()
     }
 
